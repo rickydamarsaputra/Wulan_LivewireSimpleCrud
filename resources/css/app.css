@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.livewire-paginate {
+    @apply capitalize text-xs font-medium py-1 px-4 shadow-md rounded;
+}
+
+.livewire-paginate:focus {
+    @apply outline-none;
+}
